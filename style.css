@@ -4,18 +4,29 @@
     padding: 0;
 }
 body{
-    display:flex 
+    display: flex;
+    flex-direction: column;
+    margin-height:100vh ;
 }
+main{
+    flex:1;
+}
+
 .cabecalho{
-   padding: 15px 25px;
+  color: blueviolet;
+  padding:15px 25px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: black;
 
 }
 
 .cartao{
+    margin: 20px;
     width:260px;
     height: 200px;
 }
-
 .cartao-imagem{
     width:100%;
 }
@@ -38,3 +49,4 @@ body{
 .cartao-verso{
     transform: rotateY(180deg);
 }
+
